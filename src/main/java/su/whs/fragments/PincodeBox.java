@@ -7,6 +7,7 @@ import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.text.InputType;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -22,7 +23,7 @@ import android.widget.TextView;
 
 import su.whs.common.ui.R;
 
-public class PincodeBox extends android.support.v4.app.Fragment {
+public class PincodeBox extends Fragment {
 	private View view;
 	private TextView passwordView;
 	private String expectedPassword = null;
