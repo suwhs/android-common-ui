@@ -1,0 +1,10 @@
+<resources>
+  <declare-styleable name="whsCheckBox">
+    <attr name="checkBoxAtRight" format="boolean" defaultValue="false" />
+    <attr name="text" format="string|reference"/>
+    <attr name="summary" format="string" />
+    <attr name="summaryOn" format="string" />
+    <attr name="summaryOff" format="string" />
+    <attr name="checked" format="boolean"/>
+  </declare-styleable>    
+</resources>
